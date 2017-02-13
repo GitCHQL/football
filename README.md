@@ -16,9 +16,9 @@
    - 403：静态都403可能SElinux安全策略 暂停getenforce 0
    - nginx-> fastcgi<=>php-fpm->php<->mysql 
 
-### phpframework
-  - 使用__struct()构造方法里连接数据库，写了mysql.class 2-13
-  - explode() string->array 参数1分隔符 参数2string
-  - implode() arrary->string 参数1粘合符 参数2arrary
-  - 参数3.limit 分正负 意义为分割到正数/倒数第几个
-  - 
+
+  * 使用__struct()构造方法里连接数据库，写了mysql.class 2-13 
+  * explode() string->array 参数1分隔符 参数2string 
+  * implode() arrary->string 参数1粘合符 参数2arrary 
+  * 参数3.limit 分正负 意义为分割到正数/倒数第几个 
+  * 2
