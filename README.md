@@ -4,7 +4,7 @@
 ##  时间线
 2017-2-10迁移到lnmp
 2017-2-12完成迁移到lnmp环境
-
+2017-2-13phpframework
 ## 安装CentOS7.1配置环境的问题
    -  安装路径问题
    -- U盘安装CentOS要配置引导路径
@@ -16,3 +16,11 @@
    - 403：静态都403可能SElinux安全策略 暂停getenforce 0
    - nginx-> fastcgi<=>php-fpm->php<->mysql 
    - 各种linux命令
+---
+
+## phpframework
+  - 使用__struct()构造方法里连接数据库，写了mysql.class 2-13
+  - explode() string->array 参数1分隔符 参数2string
+  - implode() arrary->string 参数1粘合符 参数2arrary
+  - 参数3.limit 分正负 意义为分割到正数/倒数第几个
+  - 
